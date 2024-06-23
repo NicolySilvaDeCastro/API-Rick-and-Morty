@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(36, 36, 36);
+   
+}
+
+.container-list{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: large;
+}
+.container-list img{
+    display: flex;
+    justify-content: center;
+    border-style: groove;
+    border-color:rgb(83, 220, 220);
+    border-radius: 10px;
+}
+.container-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-input input{
+   width: 30%;
+   height: 30px;
+   background-color: rgb(83, 220, 220);
+   border-radius: 20px;
+   font-size: large;
+}
+@media only screen and (max-width: 600px) {
+    .container-input input{
+        width: 100%;
+     }
+     
+}
